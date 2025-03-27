@@ -63,12 +63,12 @@ let feedbackSubmissions = [
         suggestion: "Food quality needs improvement",
         comments: "The rice was undercooked today and vegetables were not fresh.",
         proofFile: "proof.jpg",
-        date: new Date("2025-02-15")
+        date: new Date("2025-03-15")
     },
     {
         id: 2,
         regNo: "23BCE0891",
-        studentName: "Arnav Prtap",
+        studentName: "Arnav Pratap",
         block: "L",
         roomNo: "606",
         messName: "K paid",
@@ -76,7 +76,7 @@ let feedbackSubmissions = [
         category: "Hygiene",
         suggestion: "Kitchen area needs better cleaning",
         comments: "Found hair in food twice this week.",
-        date: new Date("2025-02-10")
+        date: new Date("2025-03-10")
     }
 ];
 
