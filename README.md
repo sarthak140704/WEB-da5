@@ -7,3 +7,4 @@ npm run start
 Password = 12345 for all students
 
 Password = admin@123 for all admin
+Preale create database using code from backend/sql/database.sql
