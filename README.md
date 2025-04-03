@@ -2,7 +2,7 @@
 
 To run backend code
 
-cd backen
+cd backend
 
 npm run start
 
