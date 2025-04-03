@@ -88,9 +88,52 @@ a:hover {
 }
 
 .error-message {
-    color: var(--error);
-    font-size: 0.875rem;
-    margin-top: 0.25rem;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2000;
+    max-width: 350px;
+    animation: slideIn 0.3s forwards;
+}
+
+.error-content {
+    background-color: #FEF2F2;
+    border-left: 4px solid var(--error);
+    color: #B91C1C;
+    padding: 12px 16px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.error-content p {
+    margin: 0;
+    padding-right: 20px;
+}
+
+.error-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #B91C1C;
+}
+
+.error-close:hover {
+    color: #7F1D1D;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 /* Navbar Styles */
